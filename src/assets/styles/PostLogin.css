@@ -1,0 +1,15 @@
+.confirm-image {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .confirm-image {
+    margin: 3rem;
+    display: block;
+    width: 95%;
+    height: 80%;
+  }
+  .confirm-container {
+    width: 50% !important;
+  }
+}

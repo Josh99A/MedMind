@@ -1,0 +1,94 @@
+/* TestimonialSlider.css */
+
+.testimonial-section {
+    background-image: url('https://img.freepik.com/premium-photo/womans-hand-holding-smartphone-with-blurry-background-city-lights-night_36682-49989.jpg?w=1060'); 
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .testimonial-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Add a slight overlay for better text readability */
+    z-index: 1;
+  }
+  
+  .testimonial-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ffffff; /* White text to stand out against the background */
+    position: relative;
+    z-index: 2;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #007bff !important;
+  }
+  
+  .testimonial-slide {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .testimonial-slide p {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-slide h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #007bff;
+  }
+  
+  .testimonial-slide h4 {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .testimonial-slide {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .testimonial-slide h3 {
+      font-size: 20px;
+    }
+  
+    .testimonial-slide h4 {
+      font-size: 16px;
+    }
+  
+    .testimonial-slide p {
+      font-size: 16px;
+    }
+  }
+  

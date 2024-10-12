@@ -1,0 +1,44 @@
+@import url('./colors.css');
+
+/* .nav-link.active {
+  color: var(--dark-blue) !important ;
+  background-color: rgba(0, 66, 95, 0.1) !important;
+  border-bottom: solid var(--dark-blue) !important;
+} */
+
+li>.nav-link {
+  font-size: smaller !important;
+  color:var(--sonic-silver) !important;
+}
+
+.btn-primary {
+  background-color: var(--light-blue);
+}
+
+.btn-primary:hover {
+  background-color: var(--blue-munsell);
+}
+
+.btn {
+  font-weight: bold;
+  padding: 0.475rem 1rem;
+  border-style: none;
+}
+
+.btn-secondary {
+  background-color: var(--cultured);
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-outline-primary {
+  border-style: solid;
+  background-color: rgba(0, 184, 222, 0.1);
+  color: var(--light-blue);
+  border-color: var(--light-blue);
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(0, 184, 222);
+  color: white;
+  border-color: var(--light-blue);
+}

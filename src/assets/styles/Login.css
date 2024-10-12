@@ -1,0 +1,50 @@
+@import url('./colors.css');
+
+/* body,
+html {
+  height: 100%;
+  background-image: url(./../images/LoginBg.png);
+  background-repeat: repeat;
+  background-size: auto;
+}
+@media (max-height: 100vh) {
+  html,
+  body {
+    height: 100vh;
+    background-image: url(./../images/LoginBg.png);
+    background-repeat: repeat;
+    background-size: auto;
+  }
+}
+
+@media (min-height: 100vh) {
+  html,
+  body {
+    height: 100%;
+    background-image: url(./../images/LoginBg.png);
+    background-repeat: repeat;
+    background-size: auto;
+  }
+} */
+
+
+.login-form {
+  background-color: whitesmoke;
+}
+
+.signup-text {
+  color: var(--light-sky-blue);
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+  .login-inner-container {
+    flex-direction: row !important;
+  }
+  .login-text {
+    width: 45% !important;
+    padding: 1rem !important;
+  }
+}

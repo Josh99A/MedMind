@@ -1,0 +1,27 @@
+@import url("./colors.css");
+
+.Dashboard {
+  background-color: var(--cultured);
+  height: 100%;
+}
+
+.dash-banner {
+  background-color: var(--dark-blue);
+}
+
+.vertical-menu {
+  background-color: white;
+}
+
+.menu-link:active {
+  background-color: var(--light-cultured);
+}
+
+.card-badge {
+  background-color: lightgray !important;
+  color: black;
+}
+
+.kyc-info-card {
+  background-color: var(--cultured) !important;
+}

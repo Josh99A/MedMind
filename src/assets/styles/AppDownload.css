@@ -1,0 +1,56 @@
+/* AppDownload.css */
+.app-download-container {
+    background-color: #000;
+    color: #00d1b2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .store-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .store-buttons img {
+    width: 200px;
+    margin: 10px 0;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .store-buttons img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    .logo {
+      font-size: 30px;
+    }
+  
+    .store-buttons img {
+      width: 180px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 24px;
+    }
+  
+    .store-buttons img {
+      width: 150px;
+    }
+  }
+  

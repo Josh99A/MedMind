@@ -1,0 +1,83 @@
+@import url('./colors.css');
+
+.Landing {
+  font-family: Averta, sans-serif;
+}
+
+
+
+.background {
+  width: 100%;
+  height: 400px;
+  padding: 1rem;
+  background-image: url(./../images/hero-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+
+}
+
+.pdts-background {
+  width: 100vw;
+  height: 400px;
+  padding: 1rem;
+  background-image: url(./../images/pdts-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 5%;
+  text-align: left;
+  justify-content: center;
+}
+
+.get-started-button {
+  width: 60%;
+}
+
+.get-started-container {
+  background-color: #fff;
+}
+
+.man-image {
+  display: none;
+}
+
+.pros-container {
+  background-color: #fff;
+}
+
+.stats {
+  width: 45%;
+  text-align: left;
+}
+
+.stats-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.stats-section {
+  background-color: var(--seasalt);
+}
+
+@media screen and (min-width: 576px) {
+  .card-style {
+    width: 45% !important;
+    margin: 0.5rem 0.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .explore-container {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+}

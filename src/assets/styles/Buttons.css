@@ -1,0 +1,13 @@
+@import url('./colors.css');
+
+.base-button-style {
+  padding: 8px 30px;
+  font-weight: bold;
+  background-color: var(--light-blue);
+  border-style: none;
+  color: white;
+}
+
+.base-button-style:hover {
+  background-color: var(--blue-munsell);
+}

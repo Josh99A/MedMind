@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Averta, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: black;
+}
+@media (max-height: 100vh) {
+  html,
+  body {
+    height: 100vh;
+    background-color: black;
+  }
+}
+
+@media (min-height: 100vh) {
+  html,
+  body {
+    height: 100%;
+    background-color: black;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
