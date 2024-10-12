@@ -104,6 +104,7 @@ const createUploadData = (fileData, file, fileName) => {
 
 const sendRedirectEmail = async (data, navigate) => {
   const token = makeToken(data);
+  console.log(data)
   const hashedToken = encryptToken(token);
   storeToken(data, hashedToken);
 

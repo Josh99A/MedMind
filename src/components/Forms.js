@@ -469,6 +469,7 @@ const LoginForm = (props) => {
       <Formik
         initialValues={{
           Email: '',
+          Password: '',
         }}
         validationSchema={LoginValidationSchema}
         onSubmit={(values) => {
@@ -485,12 +486,22 @@ const LoginForm = (props) => {
             <TextField
               name="Email"
               label="Email"
-              placeholder="info@business.com"
+              placeholder="johndoe45@gmail.com"
               errors={errors}
               type="email"
             />
+            <TextField
+              name="Password"
+              label="Password"
+              placeholder="Password"
+              errors={errors}
+              type="password"
+            />
 
+            <p className="fw-bold text-align-left">Don't have an account? <a href='/signup'>Sign up</a></p>
             <div className="d-flex flex-column align-items-center">
+              
+              
               <Button
                 type="submit"
                 className="w-100 rounded-pill bg-light-navy-blue"

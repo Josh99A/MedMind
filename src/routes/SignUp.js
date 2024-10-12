@@ -13,11 +13,11 @@ export default function SignUpPage() {
       <div className="login-container w-100 h-100 vh-91 p-4">
         <Container>
           <div className="d-flex flex-column-reverse justify-content-between align-items-center mx-auto login-inner-container">
-            <p className="h3 text-white text-center fw-bold pt-5 login-text">
-              Focused on helping thousands of businesses grow better every year.
+            <p className="h3  text-center fw-bold pt-5 login-text">
+            Access your personalized healthcare insights anytime, anywhere
             </p>
             <div className="d-flex flex-column align-items-end">
-              <p className="p-1 fw-bold text-white">
+              <p className="p-1 fw-bold">
                 Already have an account?{' '}
                 <a href="/login" className="signup-text text-decoration-none">
                   Login

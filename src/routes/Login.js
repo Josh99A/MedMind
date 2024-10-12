@@ -14,8 +14,7 @@ export default function LoginPage() {
           <Container className="d-flex align-content-center flex-wrap pt-5">
             <div className="d-flex flex-column-reverse justify-content-between align-items-center login-inner-container pt-5">
               <p className="h3 text-white text-center fw-bold pt-5 login-text">
-                Focused on helping thousands of businesses grow better every
-                year.
+              Access your personalized healthcare insights anytime, anywhere
               </p>
               <div className="w-75 d-flex flex-column align-items-end">
                 <div className="login-form py-3 px-4 rounded">

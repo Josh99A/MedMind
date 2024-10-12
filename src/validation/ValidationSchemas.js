@@ -66,6 +66,9 @@ const LoginValidationSchema = object().shape({
       'Please enter a business email address.'
     )
     .required(Messages.requiredMessage),
+  Password: string()
+  .min(6, "Password must be at least 6 characters")
+  .required("Password is required"),
 });
 
 export {
