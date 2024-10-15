@@ -1,6 +1,6 @@
 import { Button, Card, Image } from 'react-bootstrap';
 
-import InterswitchColoredLogo from './../assets/images/ISWLogo.svg';
+import MedMindLogo from './../assets/images/Logo_medmind.PNG';
 
 import './../assets/styles/universalStyles.css'
 import './../assets/styles/Products.css'
@@ -13,7 +13,7 @@ function ServiceCard(props) {
         <Card.Body>
           <Card.Title>
             <Image
-              src={InterswitchColoredLogo}
+              src={MedMindLogo}
               className="d-inline-block align-top px-1"
               alt="Interswitch"
             />
