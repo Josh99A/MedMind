@@ -17,7 +17,7 @@ function NavBar() {
           <Image
             src={MedMindLogo}
             className="d-inline-block align-top px-3"
-            alt="Interswitch"
+            alt="MedMind"
             style={{ width: '200px', height: 'auto' }}
             fluid
           />
@@ -27,21 +27,21 @@ function NavBar() {
           <Nav className="d-flex align-items-center  mx-auto">
             <Nav.Link
               className="mx-5 text-bold"
-              href="https://www.interswitchgroup.com/uganda/blog"
+              href="https://www.MedMind.com/uganda/blog"
               target="_blank"
             >
               Blog
             </Nav.Link>
             <Nav.Link
               className="mx-5 text-bold"
-              href="https://www.interswitchgroup.com/uganda/aboutus"
+              href="https://www.MedMind.com/uganda/aboutus"
               target="_blank"
             >
               About Us
             </Nav.Link>
             <Nav.Link
               className="mx-5 text-bold"
-              href="https://www.interswitchgroup.com/uganda/consultant"
+              href="https://www.MedMind.com/uganda/consultant"
               target="_blank"
             >
               Support
@@ -75,7 +75,7 @@ function DashNavbar() {
             <Image
               src={MedMindLogo}
               className="d-inline-block align-top"
-              alt="Interswitch"
+              alt="MedMind"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -119,7 +119,7 @@ function LogoNavbar() {
             <Image
               src={MedMindLogo}
               className="d-inline-block align-top "
-              alt="Interswitch"
+              alt="MedMind"
             />
           </Navbar.Brand>
         </Container>
