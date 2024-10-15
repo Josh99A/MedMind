@@ -15,7 +15,7 @@ function ServiceCard(props) {
             <Image
               src={MedMindLogo}
               className="d-inline-block align-top px-1"
-              alt="Interswitch"
+              alt="MedMind"
             />
           </Card.Title>
           <p className="h5 dark-blue-text">{name}</p>

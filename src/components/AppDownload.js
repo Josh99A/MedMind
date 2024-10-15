@@ -1,12 +1,15 @@
 import React from 'react';
 import './../assets/styles/AppDownload.css';
+import MedMindLogo from './../assets/images/Logo_medmind.PNG';
+
 
 
 const AppDownload = () => {
   return (
     <div className="app-download-container my-3 px-4">
       <div className="logo">
-        MEDMIND<sup>®</sup>
+        <img src={MedMindLogo}
+        alt="MedMind Logo" />
       </div>
 
       <div className="store-buttons">
