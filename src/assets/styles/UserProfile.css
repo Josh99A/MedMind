@@ -1,0 +1,80 @@
+.user-profile-page {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Profile Header */
+  .profile-header {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #007bff;
+  }
+  
+  .user-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .user-email {
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
+  .user-info {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Interaction History */
+  .interaction-history {
+    background-color: #fff;
+  }
+  
+  .table {
+    margin-top: 1rem;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* New Instance Section */
+  .new-instance {
+    background-color: #e9ecef;
+    padding: 2rem 0;
+  }
+  
+  .new-instance h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .new-instance p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .user-name {
+      font-size: 1.5rem;
+    }
+  
+    .profile-img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .new-instance h3 {
+      font-size: 1.5rem;
+    }
+  }
+  

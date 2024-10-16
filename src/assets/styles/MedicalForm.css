@@ -1,0 +1,51 @@
+.medical-form-page {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-section {
+    /* background-image: url('medical-background.jpg'); Add a medical-themed background image */
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  
+  .form-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+  .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .text-danger {
+    font-size: 0.875rem;
+  }
+  
+  button.btn-primary, button.btn-secondary {
+    width: 120px;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,197 @@
+@import url("./colors.css");
+
+.about-page {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-section {
+    background: url(./../images/about-hero.jpg) no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-subheading {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-heading {
+      font-size: 1.8rem;
+    }
+    .hero-subheading {
+      font-size: 1rem;
+    }
+  }
+  
+  .mission-section .icon-grid {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+  .icon-item img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  @media (max-width: 768px) {
+    .icon-grid {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  .challenge-solution-section img {
+    border-radius: 8px;
+  }
+  
+  .impact-section .impact-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .impact-section .impact-card:hover {
+    transform: translateY(-10px);
+  }
+  
+
+  .about-page {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2a2a2a;
+  }
+  
+  .section-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .mission-section .mission-image {
+    border-radius: 8px;
+  }
+  
+  .goal-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .goal-card {
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .goal-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .goal-description {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .download-section {
+    background: #007bff;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .store-buttons .btn {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .store-buttons .btn svg {
+    font-size: 1.5rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .goal-items {
+      flex-direction: column;
+    }
+  
+    .goal-card {
+      margin-bottom: 20px;
+    }
+  
+    .section-heading {
+      font-size: 1.8rem;
+    }
+  }
+  
+  /* .vision-goals-section .timeline {
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #00a3ff;
+    left: 50%;
+    top: 0;
+  }
+  
+  .timeline-content {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  } */
+  
+  .partners-section img {
+    border-radius: 10px;
+  }
+  
+  .cta-section {
+    background: url() no-repeat center center/cover;
+    color: white;
+  }
+  
+  .cta-background {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .cta-background {
+      padding: 30px 0;
+    }
+  }
+  

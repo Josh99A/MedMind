@@ -1,0 +1,59 @@
+.blog-page {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-section {
+    /* background-image: url('blog-hero-bg.jpg'); Replace with a healthcare-related image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .blog-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .footer-section {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .footer-section p {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  }
+  

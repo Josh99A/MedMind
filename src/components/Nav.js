@@ -27,21 +27,21 @@ function NavBar() {
           <Nav className="d-flex align-items-center  mx-auto">
             <Nav.Link
               className="mx-5 text-bold"
-              href="https://www.MedMind.com/uganda/blog"
+              href="/blog"
               target="_blank"
             >
               Blog
             </Nav.Link>
             <Nav.Link
               className="mx-5 text-bold"
-              href="https://www.MedMind.com/uganda/aboutus"
+              href="/about-us"
               target="_blank"
             >
               About Us
             </Nav.Link>
             <Nav.Link
               className="mx-5 text-bold"
-              href="https://www.MedMind.com/uganda/consultant"
+              href="/support-us"
               target="_blank"
             >
               Support

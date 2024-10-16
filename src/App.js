@@ -15,6 +15,11 @@ import ContactInformation from './components/ContactInformation';
 import CompanyInformation from './components/CompanyInformation';
 import LocationInformation from './components/LocationInformation';
 import NextOfKin from './components/NextOfKin';
+import AboutUs from './routes/AboutUs';
+import MedicalForm from './routes/MedicalForm';
+import BlogPage from './routes/BlogPage';
+import SupportUsPage from './routes/SupportUsPage';
+import UserProfile from './routes/UserProfile';
 
 function App(props) {
   return (
@@ -22,6 +27,11 @@ function App(props) {
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/medical-form" element={<MedicalForm />} />
+        <Route path="/support-us" element={<SupportUsPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/profile" element={<UserProfile />} />
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
