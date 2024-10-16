@@ -1,23 +1,62 @@
 .blog-page {
     font-family: 'Arial', sans-serif;
   }
-  
-  .hero-section {
-    /* background-image: url('blog-hero-bg.jpg'); Replace with a healthcare-related image */
+  /*
+  .hero-section-blog {
+    background-image: url(./../images/blog-hero.jpg); Replace with a healthcare-related image
     background-size: cover;
     background-position: center;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height: 100vh;
+  } */
+  
+  .hero-section-blog {
+    position: relative;
+    background:  url(./../images/blog-hero.jpg) no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
   }
   
-  .hero-title {
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark overlay */
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-content h1 {
     font-size: 2.5rem;
     font-weight: bold;
   }
   
-  .hero-subtitle {
+  .hero-content p {
     font-size: 1.2rem;
+    margin-top: 1rem;
   }
+  
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  }
+  
   
   .blog-section {
     background-color: #f8f9fa;
@@ -38,14 +77,7 @@
     object-fit: cover;
   }
   
-  .footer-section {
-    background-color: #343a40;
-    color: white;
-  }
-  
-  .footer-section p {
-    margin-bottom: 0;
-  }
+ 
   
   @media (max-width: 768px) {
     .hero-title {
