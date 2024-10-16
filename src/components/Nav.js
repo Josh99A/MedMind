@@ -8,10 +8,11 @@ import './../assets/styles/icons.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearCurrentUser } from '../store/slices/user';
 import { useNavigate } from 'react-router-dom';
+import zIndex from '@mui/material/styles/zIndex';
 
 function NavBar() {
   return (
-    <Navbar bg="light" variant="light" expand="lg">
+    <Navbar bg="light" variant="light" expand="lg" >
       <Container>
         <Navbar.Brand href="/">
           <Image

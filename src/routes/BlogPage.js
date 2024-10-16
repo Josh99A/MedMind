@@ -13,6 +13,7 @@ import {
 } from 'react-bootstrap';
 import './../assets/styles/BlogPage.css';
 import { MainFooter } from '../components/Footer';
+import { NavBar } from '../components/Nav';
 
 const BlogPage = () => {
   const blogPosts = [
@@ -45,7 +46,8 @@ const BlogPage = () => {
   return (
     <div className="blog-page">
       {/* Navbar */}
-      <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+      <NavBar/>
+      {/* <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
         <Container>
           <Navbar.Brand href="/">MedMind</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -57,7 +59,7 @@ const BlogPage = () => {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar> */}
 
       {/* Hero Section */}
       <section className="hero-section-blog  text-center py-5">
