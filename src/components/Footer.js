@@ -25,7 +25,7 @@ function MainFooter() {
           >
             <li className="nav-item">
               <a
-                href=""
+                href="/blog"
                 className="nav-link px-4 text-muted fs-small"
               >
                 Blog
@@ -33,9 +33,8 @@ function MainFooter() {
             </li>
             <li className="nav-item">
               <a
-                href=""
+                href="/about-us"
                 className="nav-link px-4 text-muted fs-small"
-                target="_blank"
                 rel="noreferrer"
               >
                 About Us
@@ -43,9 +42,8 @@ function MainFooter() {
             </li>
             <li className="nav-item">
               <a
-                href=""
+                href="/support-us"
                 className="nav-link px-4 text-muted fs-small"
-                target="_blank"
                 rel="noreferrer"
               >
                 Support

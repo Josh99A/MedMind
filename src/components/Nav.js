@@ -29,21 +29,21 @@ function NavBar() {
             <Nav.Link
               className="mx-5 text-bold"
               href="/blog"
-              target="_blank"
+              
             >
               Blog
             </Nav.Link>
             <Nav.Link
               className="mx-5 text-bold"
               href="/about-us"
-              target="_blank"
+              
             >
               About Us
             </Nav.Link>
             <Nav.Link
               className="mx-5 text-bold"
               href="/support-us"
-              target="_blank"
+          
             >
               Support
             </Nav.Link>
